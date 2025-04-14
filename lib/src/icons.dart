@@ -1,11 +1,11 @@
-class MudeIconData {
+class ExpenseIconData {
   final String package;
   final String path;
   final String name;
   final double height;
   final double width;
 
-  MudeIconData({
+  ExpenseIconData({
     required this.path,
     required this.package,
     required this.name,
@@ -19,8 +19,8 @@ class MudeIconData {
   }
 }
 
-class MudeIcons {
-  static MudeIconData get menuLine => MudeIconData(
+class ExpenseIcons {
+  static ExpenseIconData get menuLine => ExpenseIconData(
         path: 'lib/src/assets/icons/menu-line.svg',
         package: 'expense_assets',
         name: 'MenuLine',
@@ -28,7 +28,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get checkLine => MudeIconData(
+  static ExpenseIconData get checkLine => ExpenseIconData(
         path: 'lib/src/assets/icons/check-line.svg',
         package: 'expense_assets',
         name: 'CheckLine',
@@ -36,7 +36,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get hideLine => MudeIconData(
+  static ExpenseIconData get hideLine => ExpenseIconData(
         path: 'lib/src/assets/icons/hide-line.svg',
         package: 'expense_assets',
         name: 'HideLine',
@@ -44,7 +44,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get promoteLine => MudeIconData(
+  static ExpenseIconData get promoteLine => ExpenseIconData(
         path: 'lib/src/assets/icons/promote-line.svg',
         package: 'expense_assets',
         name: 'PromoteLine',
@@ -52,7 +52,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get placeholderFill => MudeIconData(
+  static ExpenseIconData get placeholderFill => ExpenseIconData(
         path: 'lib/src/assets/icons/placeholder-fill.svg',
         package: 'expense_assets',
         name: 'PlaceholderFill',
@@ -60,7 +60,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get fileLine => MudeIconData(
+  static ExpenseIconData get fileLine => ExpenseIconData(
         path: 'lib/src/assets/icons/file-line.svg',
         package: 'expense_assets',
         name: 'FileLine',
@@ -68,7 +68,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get rearward10 => MudeIconData(
+  static ExpenseIconData get rearward10 => ExpenseIconData(
         path: 'lib/src/assets/icons/rearward-10.svg',
         package: 'expense_assets',
         name: 'Rearward10',
@@ -76,7 +76,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get likeLine => MudeIconData(
+  static ExpenseIconData get likeLine => ExpenseIconData(
         path: 'lib/src/assets/icons/like-line.svg',
         package: 'expense_assets',
         name: 'LikeLine',
@@ -84,7 +84,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get dislikeFill => MudeIconData(
+  static ExpenseIconData get dislikeFill => ExpenseIconData(
         path: 'lib/src/assets/icons/dislike-fill.svg',
         package: 'expense_assets',
         name: 'DislikeFill',
@@ -92,7 +92,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get gym => MudeIconData(
+  static ExpenseIconData get gym => ExpenseIconData(
         path: 'lib/src/assets/icons/gym.svg',
         package: 'expense_assets',
         name: 'Gym',
@@ -100,7 +100,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get sendFill => MudeIconData(
+  static ExpenseIconData get sendFill => ExpenseIconData(
         path: 'lib/src/assets/icons/send-fill.svg',
         package: 'expense_assets',
         name: 'SendFill',
@@ -108,7 +108,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get androidFill => MudeIconData(
+  static ExpenseIconData get androidFill => ExpenseIconData(
         path: 'lib/src/assets/icons/android-fill.svg',
         package: 'expense_assets',
         name: 'AndroidFill',
@@ -116,7 +116,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get downloadLine => MudeIconData(
+  static ExpenseIconData get downloadLine => ExpenseIconData(
         path: 'lib/src/assets/icons/download-line.svg',
         package: 'expense_assets',
         name: 'DownloadLine',
@@ -124,7 +124,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get okay => MudeIconData(
+  static ExpenseIconData get okay => ExpenseIconData(
         path: 'lib/src/assets/icons/okay.svg',
         package: 'expense_assets',
         name: 'Okay',
@@ -132,7 +132,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get negativeFill => MudeIconData(
+  static ExpenseIconData get negativeFill => ExpenseIconData(
         path: 'lib/src/assets/icons/negative-fill.svg',
         package: 'expense_assets',
         name: 'NegativeFill',
@@ -140,7 +140,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get moreLine => MudeIconData(
+  static ExpenseIconData get moreLine => ExpenseIconData(
         path: 'lib/src/assets/icons/more-line.svg',
         package: 'expense_assets',
         name: 'MoreLine',
@@ -148,7 +148,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get favoriteFill => MudeIconData(
+  static ExpenseIconData get favoriteFill => ExpenseIconData(
         path: 'lib/src/assets/icons/favorite-fill.svg',
         package: 'expense_assets',
         name: 'FavoriteFill',
@@ -156,7 +156,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get linkLine => MudeIconData(
+  static ExpenseIconData get linkLine => ExpenseIconData(
         path: 'lib/src/assets/icons/link-line.svg',
         package: 'expense_assets',
         name: 'LinkLine',
@@ -164,7 +164,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get map => MudeIconData(
+  static ExpenseIconData get map => ExpenseIconData(
         path: 'lib/src/assets/icons/map.svg',
         package: 'expense_assets',
         name: 'Map',
@@ -172,7 +172,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get community => MudeIconData(
+  static ExpenseIconData get community => ExpenseIconData(
         path: 'lib/src/assets/icons/community.svg',
         package: 'expense_assets',
         name: 'Community',
@@ -180,7 +180,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get supportFill => MudeIconData(
+  static ExpenseIconData get supportFill => ExpenseIconData(
         path: 'lib/src/assets/icons/support-fill.svg',
         package: 'expense_assets',
         name: 'SupportFill',
@@ -188,7 +188,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get locationOff => MudeIconData(
+  static ExpenseIconData get locationOff => ExpenseIconData(
         path: 'lib/src/assets/icons/location-off.svg',
         package: 'expense_assets',
         name: 'LocationOff',
@@ -196,7 +196,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get searchLine => MudeIconData(
+  static ExpenseIconData get searchLine => ExpenseIconData(
         path: 'lib/src/assets/icons/search-line.svg',
         package: 'expense_assets',
         name: 'SearchLine',
@@ -204,7 +204,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get likeFill => MudeIconData(
+  static ExpenseIconData get likeFill => ExpenseIconData(
         path: 'lib/src/assets/icons/like-fill.svg',
         package: 'expense_assets',
         name: 'LikeFill',
@@ -212,7 +212,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get placeholderLine => MudeIconData(
+  static ExpenseIconData get placeholderLine => ExpenseIconData(
         path: 'lib/src/assets/icons/placeholder-line.svg',
         package: 'expense_assets',
         name: 'PlaceholderLine',
@@ -220,7 +220,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get promoteFill => MudeIconData(
+  static ExpenseIconData get promoteFill => ExpenseIconData(
         path: 'lib/src/assets/icons/promote-fill.svg',
         package: 'expense_assets',
         name: 'PromoteFill',
@@ -228,7 +228,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get lock => MudeIconData(
+  static ExpenseIconData get lock => ExpenseIconData(
         path: 'lib/src/assets/icons/lock.svg',
         package: 'expense_assets',
         name: 'Lock',
@@ -236,7 +236,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get dislikeLine => MudeIconData(
+  static ExpenseIconData get dislikeLine => ExpenseIconData(
         path: 'lib/src/assets/icons/dislike-line.svg',
         package: 'expense_assets',
         name: 'DislikeLine',
@@ -244,7 +244,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get euro => MudeIconData(
+  static ExpenseIconData get euro => ExpenseIconData(
         path: 'lib/src/assets/icons/euro.svg',
         package: 'expense_assets',
         name: 'Euro',
@@ -252,7 +252,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get sad => MudeIconData(
+  static ExpenseIconData get sad => ExpenseIconData(
         path: 'lib/src/assets/icons/sad.svg',
         package: 'expense_assets',
         name: 'Sad',
@@ -260,7 +260,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get googleFill => MudeIconData(
+  static ExpenseIconData get googleFill => ExpenseIconData(
         path: 'lib/src/assets/icons/google-fill.svg',
         package: 'expense_assets',
         name: 'GoogleFill',
@@ -268,7 +268,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get settings => MudeIconData(
+  static ExpenseIconData get settings => ExpenseIconData(
         path: 'lib/src/assets/icons/settings.svg',
         package: 'expense_assets',
         name: 'Settings',
@@ -276,7 +276,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get minusLine => MudeIconData(
+  static ExpenseIconData get minusLine => ExpenseIconData(
         path: 'lib/src/assets/icons/minus-line.svg',
         package: 'expense_assets',
         name: 'MinusLine',
@@ -284,7 +284,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get discover => MudeIconData(
+  static ExpenseIconData get discover => ExpenseIconData(
         path: 'lib/src/assets/icons/discover.svg',
         package: 'expense_assets',
         name: 'Discover',
@@ -292,7 +292,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get editLine => MudeIconData(
+  static ExpenseIconData get editLine => ExpenseIconData(
         path: 'lib/src/assets/icons/edit-line.svg',
         package: 'expense_assets',
         name: 'EditLine',
@@ -300,7 +300,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get favoriteLine => MudeIconData(
+  static ExpenseIconData get favoriteLine => ExpenseIconData(
         path: 'lib/src/assets/icons/favorite-line.svg',
         package: 'expense_assets',
         name: 'FavoriteLine',
@@ -308,7 +308,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get deleteLine => MudeIconData(
+  static ExpenseIconData get deleteLine => ExpenseIconData(
         path: 'lib/src/assets/icons/delete-line.svg',
         package: 'expense_assets',
         name: 'DeleteLine',
@@ -316,7 +316,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get timerLine => MudeIconData(
+  static ExpenseIconData get timerLine => ExpenseIconData(
         path: 'lib/src/assets/icons/timer-line.svg',
         package: 'expense_assets',
         name: 'TimerLine',
@@ -324,7 +324,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get dashboard => MudeIconData(
+  static ExpenseIconData get dashboard => ExpenseIconData(
         path: 'lib/src/assets/icons/dashboard.svg',
         package: 'expense_assets',
         name: 'Dashboard',
@@ -332,7 +332,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get supportLine => MudeIconData(
+  static ExpenseIconData get supportLine => ExpenseIconData(
         path: 'lib/src/assets/icons/support-line.svg',
         package: 'expense_assets',
         name: 'SupportLine',
@@ -340,7 +340,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get chatLine => MudeIconData(
+  static ExpenseIconData get chatLine => ExpenseIconData(
         path: 'lib/src/assets/icons/chat-line.svg',
         package: 'expense_assets',
         name: 'ChatLine',
@@ -348,7 +348,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get homeLine => MudeIconData(
+  static ExpenseIconData get homeLine => ExpenseIconData(
         path: 'lib/src/assets/icons/home-line.svg',
         package: 'expense_assets',
         name: 'HomeLine',
@@ -356,7 +356,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get starHalf => MudeIconData(
+  static ExpenseIconData get starHalf => ExpenseIconData(
         path: 'lib/src/assets/icons/star-half.svg',
         package: 'expense_assets',
         name: 'StarHalf',
@@ -364,7 +364,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get shareLine => MudeIconData(
+  static ExpenseIconData get shareLine => ExpenseIconData(
         path: 'lib/src/assets/icons/share-line.svg',
         package: 'expense_assets',
         name: 'ShareLine',
@@ -372,7 +372,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get speed1x => MudeIconData(
+  static ExpenseIconData get speed1x => ExpenseIconData(
         path: 'lib/src/assets/icons/speed-1x.svg',
         package: 'expense_assets',
         name: 'Speed1x',
@@ -380,7 +380,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get upDownLine => MudeIconData(
+  static ExpenseIconData get upDownLine => ExpenseIconData(
         path: 'lib/src/assets/icons/up-down-line.svg',
         package: 'expense_assets',
         name: 'UpDownLine',
@@ -388,7 +388,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get uploadLine => MudeIconData(
+  static ExpenseIconData get uploadLine => ExpenseIconData(
         path: 'lib/src/assets/icons/upload-line.svg',
         package: 'expense_assets',
         name: 'UploadLine',
@@ -396,7 +396,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get negativeLine => MudeIconData(
+  static ExpenseIconData get negativeLine => ExpenseIconData(
         path: 'lib/src/assets/icons/negative-line.svg',
         package: 'expense_assets',
         name: 'NegativeLine',
@@ -404,7 +404,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get gastronomy => MudeIconData(
+  static ExpenseIconData get gastronomy => ExpenseIconData(
         path: 'lib/src/assets/icons/gastronomy.svg',
         package: 'expense_assets',
         name: 'Gastronomy',
@@ -412,7 +412,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get lightModeLine => MudeIconData(
+  static ExpenseIconData get lightModeLine => ExpenseIconData(
         path: 'lib/src/assets/icons/light-mode-line.svg',
         package: 'expense_assets',
         name: 'LightModeLine',
@@ -420,7 +420,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get filterLine => MudeIconData(
+  static ExpenseIconData get filterLine => ExpenseIconData(
         path: 'lib/src/assets/icons/filter-line.svg',
         package: 'expense_assets',
         name: 'FilterLine',
@@ -428,7 +428,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get pauseLine => MudeIconData(
+  static ExpenseIconData get pauseLine => ExpenseIconData(
         path: 'lib/src/assets/icons/pause-line.svg',
         package: 'expense_assets',
         name: 'PauseLine',
@@ -436,7 +436,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get userLine => MudeIconData(
+  static ExpenseIconData get userLine => ExpenseIconData(
         path: 'lib/src/assets/icons/user-line.svg',
         package: 'expense_assets',
         name: 'UserLine',
@@ -444,7 +444,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get saveFill => MudeIconData(
+  static ExpenseIconData get saveFill => ExpenseIconData(
         path: 'lib/src/assets/icons/save-fill.svg',
         package: 'expense_assets',
         name: 'SaveFill',
@@ -452,7 +452,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get informationLine => MudeIconData(
+  static ExpenseIconData get informationLine => ExpenseIconData(
         path: 'lib/src/assets/icons/information-line.svg',
         package: 'expense_assets',
         name: 'InformationLine',
@@ -460,7 +460,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get forward10 => MudeIconData(
+  static ExpenseIconData get forward10 => ExpenseIconData(
         path: 'lib/src/assets/icons/forward-10.svg',
         package: 'expense_assets',
         name: 'Forward10',
@@ -468,7 +468,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get reward => MudeIconData(
+  static ExpenseIconData get reward => ExpenseIconData(
         path: 'lib/src/assets/icons/reward.svg',
         package: 'expense_assets',
         name: 'Reward',
@@ -476,7 +476,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get premium => MudeIconData(
+  static ExpenseIconData get premium => ExpenseIconData(
         path: 'lib/src/assets/icons/premium.svg',
         package: 'expense_assets',
         name: 'Premium',
@@ -484,7 +484,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get dropdownCloseLine => MudeIconData(
+  static ExpenseIconData get dropdownCloseLine => ExpenseIconData(
         path: 'lib/src/assets/icons/dropdown-close-line.svg',
         package: 'expense_assets',
         name: 'DropdownCloseLine',
@@ -492,7 +492,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get upLine => MudeIconData(
+  static ExpenseIconData get upLine => ExpenseIconData(
         path: 'lib/src/assets/icons/up-line.svg',
         package: 'expense_assets',
         name: 'UpLine',
@@ -500,7 +500,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get calendarLine => MudeIconData(
+  static ExpenseIconData get calendarLine => ExpenseIconData(
         path: 'lib/src/assets/icons/calendar-line.svg',
         package: 'expense_assets',
         name: 'CalendarLine',
@@ -508,7 +508,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get groups => MudeIconData(
+  static ExpenseIconData get groups => ExpenseIconData(
         path: 'lib/src/assets/icons/groups.svg',
         package: 'expense_assets',
         name: 'Groups',
@@ -516,7 +516,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get rateFill => MudeIconData(
+  static ExpenseIconData get rateFill => ExpenseIconData(
         path: 'lib/src/assets/icons/rate-fill.svg',
         package: 'expense_assets',
         name: 'RateFill',
@@ -524,7 +524,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get navigationLeftLine => MudeIconData(
+  static ExpenseIconData get navigationLeftLine => ExpenseIconData(
         path: 'lib/src/assets/icons/navigation-left-line.svg',
         package: 'expense_assets',
         name: 'NavigationLeftLine',
@@ -532,7 +532,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get fullScreen => MudeIconData(
+  static ExpenseIconData get fullScreen => ExpenseIconData(
         path: 'lib/src/assets/icons/full-screen.svg',
         package: 'expense_assets',
         name: 'FullScreen',
@@ -540,7 +540,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get eventUpcoming => MudeIconData(
+  static ExpenseIconData get eventUpcoming => ExpenseIconData(
         path: 'lib/src/assets/icons/event-upcoming.svg',
         package: 'expense_assets',
         name: 'EventUpcoming',
@@ -548,7 +548,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get notificationLine => MudeIconData(
+  static ExpenseIconData get notificationLine => ExpenseIconData(
         path: 'lib/src/assets/icons/notification-line.svg',
         package: 'expense_assets',
         name: 'NotificationLine',
@@ -556,7 +556,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get positiveFill => MudeIconData(
+  static ExpenseIconData get positiveFill => ExpenseIconData(
         path: 'lib/src/assets/icons/positive-fill.svg',
         package: 'expense_assets',
         name: 'PositiveFill',
@@ -564,7 +564,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get warningLine => MudeIconData(
+  static ExpenseIconData get warningLine => ExpenseIconData(
         path: 'lib/src/assets/icons/warning-line.svg',
         package: 'expense_assets',
         name: 'WarningLine',
@@ -572,7 +572,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get hideOffLine => MudeIconData(
+  static ExpenseIconData get hideOffLine => ExpenseIconData(
         path: 'lib/src/assets/icons/hide-off-line.svg',
         package: 'expense_assets',
         name: 'HideOffLine',
@@ -580,7 +580,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get logoutLine => MudeIconData(
+  static ExpenseIconData get logoutLine => ExpenseIconData(
         path: 'lib/src/assets/icons/logout-line.svg',
         package: 'expense_assets',
         name: 'LogoutLine',
@@ -588,7 +588,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get diagonalUpRightLine => MudeIconData(
+  static ExpenseIconData get diagonalUpRightLine => ExpenseIconData(
         path: 'lib/src/assets/icons/diagonal-up-right-line.svg',
         package: 'expense_assets',
         name: 'DiagonalUpRightLine',
@@ -596,7 +596,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get language => MudeIconData(
+  static ExpenseIconData get language => ExpenseIconData(
         path: 'lib/src/assets/icons/language.svg',
         package: 'expense_assets',
         name: 'Language',
@@ -604,7 +604,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get goLine => MudeIconData(
+  static ExpenseIconData get goLine => ExpenseIconData(
         path: 'lib/src/assets/icons/go-line.svg',
         package: 'expense_assets',
         name: 'GoLine',
@@ -612,7 +612,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get exercise => MudeIconData(
+  static ExpenseIconData get exercise => ExpenseIconData(
         path: 'lib/src/assets/icons/exercise.svg',
         package: 'expense_assets',
         name: 'Exercise',
@@ -620,7 +620,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get clock => MudeIconData(
+  static ExpenseIconData get clock => ExpenseIconData(
         path: 'lib/src/assets/icons/clock.svg',
         package: 'expense_assets',
         name: 'Clock',
@@ -628,7 +628,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get saveLine => MudeIconData(
+  static ExpenseIconData get saveLine => ExpenseIconData(
         path: 'lib/src/assets/icons/save-line.svg',
         package: 'expense_assets',
         name: 'SaveLine',
@@ -636,7 +636,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get informationFill => MudeIconData(
+  static ExpenseIconData get informationFill => ExpenseIconData(
         path: 'lib/src/assets/icons/information-fill.svg',
         package: 'expense_assets',
         name: 'InformationFill',
@@ -644,7 +644,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get hamburguerLine => MudeIconData(
+  static ExpenseIconData get hamburguerLine => ExpenseIconData(
         path: 'lib/src/assets/icons/hamburguer-line.svg',
         package: 'expense_assets',
         name: 'HamburguerLine',
@@ -652,7 +652,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get closeLine => MudeIconData(
+  static ExpenseIconData get closeLine => ExpenseIconData(
         path: 'lib/src/assets/icons/close-line.svg',
         package: 'expense_assets',
         name: 'CloseLine',
@@ -660,7 +660,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get downLine => MudeIconData(
+  static ExpenseIconData get downLine => ExpenseIconData(
         path: 'lib/src/assets/icons/down-line.svg',
         package: 'expense_assets',
         name: 'DownLine',
@@ -668,7 +668,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get copyLine => MudeIconData(
+  static ExpenseIconData get copyLine => ExpenseIconData(
         path: 'lib/src/assets/icons/copy-line.svg',
         package: 'expense_assets',
         name: 'CopyLine',
@@ -676,7 +676,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get profile => MudeIconData(
+  static ExpenseIconData get profile => ExpenseIconData(
         path: 'lib/src/assets/icons/profile.svg',
         package: 'expense_assets',
         name: 'Profile',
@@ -684,7 +684,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get promotionCode => MudeIconData(
+  static ExpenseIconData get promotionCode => ExpenseIconData(
         path: 'lib/src/assets/icons/promotion-code.svg',
         package: 'expense_assets',
         name: 'PromotionCode',
@@ -692,7 +692,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get appleFill => MudeIconData(
+  static ExpenseIconData get appleFill => ExpenseIconData(
         path: 'lib/src/assets/icons/apple-fill.svg',
         package: 'expense_assets',
         name: 'AppleFill',
@@ -700,7 +700,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get dropdownOpenLine => MudeIconData(
+  static ExpenseIconData get dropdownOpenLine => ExpenseIconData(
         path: 'lib/src/assets/icons/dropdown-open-line.svg',
         package: 'expense_assets',
         name: 'DropdownOpenLine',
@@ -708,7 +708,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get backLine => MudeIconData(
+  static ExpenseIconData get backLine => ExpenseIconData(
         path: 'lib/src/assets/icons/back-line.svg',
         package: 'expense_assets',
         name: 'BackLine',
@@ -716,7 +716,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get walk => MudeIconData(
+  static ExpenseIconData get walk => ExpenseIconData(
         path: 'lib/src/assets/icons/walk.svg',
         package: 'expense_assets',
         name: 'Walk',
@@ -724,7 +724,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get positiveLine => MudeIconData(
+  static ExpenseIconData get positiveLine => ExpenseIconData(
         path: 'lib/src/assets/icons/positive-line.svg',
         package: 'expense_assets',
         name: 'PositiveLine',
@@ -732,7 +732,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get warningFill => MudeIconData(
+  static ExpenseIconData get warningFill => ExpenseIconData(
         path: 'lib/src/assets/icons/warning-fill.svg',
         package: 'expense_assets',
         name: 'WarningFill',
@@ -740,7 +740,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get playFill => MudeIconData(
+  static ExpenseIconData get playFill => ExpenseIconData(
         path: 'lib/src/assets/icons/play-fill.svg',
         package: 'expense_assets',
         name: 'PlayFill',
@@ -748,7 +748,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get rateLine => MudeIconData(
+  static ExpenseIconData get rateLine => ExpenseIconData(
         path: 'lib/src/assets/icons/rate-line.svg',
         package: 'expense_assets',
         name: 'RateLine',
@@ -756,7 +756,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get darkModeLine => MudeIconData(
+  static ExpenseIconData get darkModeLine => ExpenseIconData(
         path: 'lib/src/assets/icons/dark-mode-line.svg',
         package: 'expense_assets',
         name: 'DarkModeLine',
@@ -764,7 +764,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get navigationRightLine => MudeIconData(
+  static ExpenseIconData get navigationRightLine => ExpenseIconData(
         path: 'lib/src/assets/icons/navigation-right-line.svg',
         package: 'expense_assets',
         name: 'NavigationRightLine',
@@ -772,7 +772,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get businessLine => MudeIconData(
+  static ExpenseIconData get businessLine => ExpenseIconData(
         path: 'lib/src/assets/icons/business-line.svg',
         package: 'expense_assets',
         name: 'BusinessLine',
@@ -780,7 +780,7 @@ class MudeIcons {
         width: 24,
       );
 
-  static MudeIconData get plusLine => MudeIconData(
+  static ExpenseIconData get plusLine => ExpenseIconData(
         path: 'lib/src/assets/icons/plus-line.svg',
         package: 'expense_assets',
         name: 'PlusLine',
@@ -788,102 +788,102 @@ class MudeIcons {
         width: 24,
       );
 
-  static List<MudeIconData> values = [
-    MudeIcons.menuLine,
-    MudeIcons.checkLine,
-    MudeIcons.hideLine,
-    MudeIcons.promoteLine,
-    MudeIcons.placeholderFill,
-    MudeIcons.fileLine,
-    MudeIcons.rearward10,
-    MudeIcons.likeLine,
-    MudeIcons.dislikeFill,
-    MudeIcons.gym,
-    MudeIcons.sendFill,
-    MudeIcons.androidFill,
-    MudeIcons.downloadLine,
-    MudeIcons.okay,
-    MudeIcons.negativeFill,
-    MudeIcons.moreLine,
-    MudeIcons.favoriteFill,
-    MudeIcons.linkLine,
-    MudeIcons.map,
-    MudeIcons.community,
-    MudeIcons.supportFill,
-    MudeIcons.locationOff,
-    MudeIcons.searchLine,
-    MudeIcons.likeFill,
-    MudeIcons.placeholderLine,
-    MudeIcons.promoteFill,
-    MudeIcons.lock,
-    MudeIcons.dislikeLine,
-    MudeIcons.euro,
-    MudeIcons.sad,
-    MudeIcons.googleFill,
-    MudeIcons.settings,
-    MudeIcons.minusLine,
-    MudeIcons.discover,
-    MudeIcons.editLine,
-    MudeIcons.favoriteLine,
-    MudeIcons.deleteLine,
-    MudeIcons.timerLine,
-    MudeIcons.dashboard,
-    MudeIcons.supportLine,
-    MudeIcons.chatLine,
-    MudeIcons.homeLine,
-    MudeIcons.starHalf,
-    MudeIcons.shareLine,
-    MudeIcons.speed1x,
-    MudeIcons.upDownLine,
-    MudeIcons.uploadLine,
-    MudeIcons.negativeLine,
-    MudeIcons.gastronomy,
-    MudeIcons.lightModeLine,
-    MudeIcons.filterLine,
-    MudeIcons.pauseLine,
-    MudeIcons.userLine,
-    MudeIcons.saveFill,
-    MudeIcons.informationLine,
-    MudeIcons.forward10,
-    MudeIcons.reward,
-    MudeIcons.premium,
-    MudeIcons.dropdownCloseLine,
-    MudeIcons.upLine,
-    MudeIcons.calendarLine,
-    MudeIcons.groups,
-    MudeIcons.rateFill,
-    MudeIcons.navigationLeftLine,
-    MudeIcons.fullScreen,
-    MudeIcons.eventUpcoming,
-    MudeIcons.notificationLine,
-    MudeIcons.positiveFill,
-    MudeIcons.warningLine,
-    MudeIcons.hideOffLine,
-    MudeIcons.logoutLine,
-    MudeIcons.diagonalUpRightLine,
-    MudeIcons.language,
-    MudeIcons.goLine,
-    MudeIcons.exercise,
-    MudeIcons.clock,
-    MudeIcons.saveLine,
-    MudeIcons.informationFill,
-    MudeIcons.hamburguerLine,
-    MudeIcons.closeLine,
-    MudeIcons.downLine,
-    MudeIcons.copyLine,
-    MudeIcons.profile,
-    MudeIcons.promotionCode,
-    MudeIcons.appleFill,
-    MudeIcons.dropdownOpenLine,
-    MudeIcons.backLine,
-    MudeIcons.walk,
-    MudeIcons.positiveLine,
-    MudeIcons.warningFill,
-    MudeIcons.playFill,
-    MudeIcons.rateLine,
-    MudeIcons.darkModeLine,
-    MudeIcons.navigationRightLine,
-    MudeIcons.businessLine,
-    MudeIcons.plusLine,
+  static List<ExpenseIconData> values = [
+    ExpenseIcons.menuLine,
+    ExpenseIcons.checkLine,
+    ExpenseIcons.hideLine,
+    ExpenseIcons.promoteLine,
+    ExpenseIcons.placeholderFill,
+    ExpenseIcons.fileLine,
+    ExpenseIcons.rearward10,
+    ExpenseIcons.likeLine,
+    ExpenseIcons.dislikeFill,
+    ExpenseIcons.gym,
+    ExpenseIcons.sendFill,
+    ExpenseIcons.androidFill,
+    ExpenseIcons.downloadLine,
+    ExpenseIcons.okay,
+    ExpenseIcons.negativeFill,
+    ExpenseIcons.moreLine,
+    ExpenseIcons.favoriteFill,
+    ExpenseIcons.linkLine,
+    ExpenseIcons.map,
+    ExpenseIcons.community,
+    ExpenseIcons.supportFill,
+    ExpenseIcons.locationOff,
+    ExpenseIcons.searchLine,
+    ExpenseIcons.likeFill,
+    ExpenseIcons.placeholderLine,
+    ExpenseIcons.promoteFill,
+    ExpenseIcons.lock,
+    ExpenseIcons.dislikeLine,
+    ExpenseIcons.euro,
+    ExpenseIcons.sad,
+    ExpenseIcons.googleFill,
+    ExpenseIcons.settings,
+    ExpenseIcons.minusLine,
+    ExpenseIcons.discover,
+    ExpenseIcons.editLine,
+    ExpenseIcons.favoriteLine,
+    ExpenseIcons.deleteLine,
+    ExpenseIcons.timerLine,
+    ExpenseIcons.dashboard,
+    ExpenseIcons.supportLine,
+    ExpenseIcons.chatLine,
+    ExpenseIcons.homeLine,
+    ExpenseIcons.starHalf,
+    ExpenseIcons.shareLine,
+    ExpenseIcons.speed1x,
+    ExpenseIcons.upDownLine,
+    ExpenseIcons.uploadLine,
+    ExpenseIcons.negativeLine,
+    ExpenseIcons.gastronomy,
+    ExpenseIcons.lightModeLine,
+    ExpenseIcons.filterLine,
+    ExpenseIcons.pauseLine,
+    ExpenseIcons.userLine,
+    ExpenseIcons.saveFill,
+    ExpenseIcons.informationLine,
+    ExpenseIcons.forward10,
+    ExpenseIcons.reward,
+    ExpenseIcons.premium,
+    ExpenseIcons.dropdownCloseLine,
+    ExpenseIcons.upLine,
+    ExpenseIcons.calendarLine,
+    ExpenseIcons.groups,
+    ExpenseIcons.rateFill,
+    ExpenseIcons.navigationLeftLine,
+    ExpenseIcons.fullScreen,
+    ExpenseIcons.eventUpcoming,
+    ExpenseIcons.notificationLine,
+    ExpenseIcons.positiveFill,
+    ExpenseIcons.warningLine,
+    ExpenseIcons.hideOffLine,
+    ExpenseIcons.logoutLine,
+    ExpenseIcons.diagonalUpRightLine,
+    ExpenseIcons.language,
+    ExpenseIcons.goLine,
+    ExpenseIcons.exercise,
+    ExpenseIcons.clock,
+    ExpenseIcons.saveLine,
+    ExpenseIcons.informationFill,
+    ExpenseIcons.hamburguerLine,
+    ExpenseIcons.closeLine,
+    ExpenseIcons.downLine,
+    ExpenseIcons.copyLine,
+    ExpenseIcons.profile,
+    ExpenseIcons.promotionCode,
+    ExpenseIcons.appleFill,
+    ExpenseIcons.dropdownOpenLine,
+    ExpenseIcons.backLine,
+    ExpenseIcons.walk,
+    ExpenseIcons.positiveLine,
+    ExpenseIcons.warningFill,
+    ExpenseIcons.playFill,
+    ExpenseIcons.rateLine,
+    ExpenseIcons.darkModeLine,
+    ExpenseIcons.navigationRightLine,
+    ExpenseIcons.businessLine,
+    ExpenseIcons.plusLine,
   ];
 }

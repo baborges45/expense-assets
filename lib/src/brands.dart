@@ -1,11 +1,11 @@
-class MudeBrandData {
+class ExpenseBrandData {
   final String package;
   final String path;
   final String name;
   final double height;
   final double width;
 
-  MudeBrandData({
+  ExpenseBrandData({
     required this.path,
     required this.package,
     required this.name,
@@ -19,8 +19,8 @@ class MudeBrandData {
   }
 }
 
-class MudeBrands {
-  static MudeBrandData get logoMdsBlack => MudeBrandData(
+class ExpenseBrands {
+  static ExpenseBrandData get logoMdsBlack => ExpenseBrandData(
         path: 'lib/src/assets/brands/logo-mds-black.svg',
         package: 'expense_assets',
         name: 'LogoMdsBlack',
@@ -28,23 +28,23 @@ class MudeBrands {
         width: 55,
       );
 
-  static MudeBrandData get logoMudeWhite => MudeBrandData(
-        path: 'lib/src/assets/brands/logo-mude-white.svg',
+  static ExpenseBrandData get logoExpenseWhite => ExpenseBrandData(
+        path: 'lib/src/assets/brands/logo-Expense-white.svg',
         package: 'expense_assets',
-        name: 'LogoMudeWhite',
+        name: 'LogoExpenseWhite',
         height: 33,
         width: 108,
       );
 
-  static MudeBrandData get logoMudeDsWhite => MudeBrandData(
-        path: 'lib/src/assets/brands/logo-mude-ds-white.svg',
+  static ExpenseBrandData get logoExpenseDsWhite => ExpenseBrandData(
+        path: 'lib/src/assets/brands/logo-Expense-ds-white.svg',
         package: 'expense_assets',
-        name: 'LogoMudeDsWhite',
+        name: 'LogoExpenseDsWhite',
         height: 25,
         width: 112,
       );
 
-  static MudeBrandData get squareLogoMdsBlack => MudeBrandData(
+  static ExpenseBrandData get squareLogoMdsBlack => ExpenseBrandData(
         path: 'lib/src/assets/brands/square-logo-mds-black.svg',
         package: 'expense_assets',
         name: 'SquareLogoMdsBlack',
@@ -52,7 +52,7 @@ class MudeBrands {
         width: 56,
       );
 
-  static MudeBrandData get logoMWhite => MudeBrandData(
+  static ExpenseBrandData get logoMWhite => ExpenseBrandData(
         path: 'lib/src/assets/brands/logo-m-white.svg',
         package: 'expense_assets',
         name: 'LogoMWhite',
@@ -60,7 +60,7 @@ class MudeBrands {
         width: 24,
       );
 
-  static MudeBrandData get logoMdsWhite => MudeBrandData(
+  static ExpenseBrandData get logoMdsWhite => ExpenseBrandData(
         path: 'lib/src/assets/brands/logo-mds-white.svg',
         package: 'expense_assets',
         name: 'LogoMdsWhite',
@@ -68,15 +68,15 @@ class MudeBrands {
         width: 55,
       );
 
-  static MudeBrandData get logoMudeBlack => MudeBrandData(
-        path: 'lib/src/assets/brands/logo-mude-black.svg',
+  static ExpenseBrandData get logoExpenseBlack => ExpenseBrandData(
+        path: 'lib/src/assets/brands/logo-Expense-black.svg',
         package: 'expense_assets',
-        name: 'LogoMudeBlack',
+        name: 'LogoExpenseBlack',
         height: 33,
         width: 108,
       );
 
-  static MudeBrandData get squareLogoMdsYellow => MudeBrandData(
+  static ExpenseBrandData get squareLogoMdsYellow => ExpenseBrandData(
         path: 'lib/src/assets/brands/square-logo-mds-yellow.svg',
         package: 'expense_assets',
         name: 'SquareLogoMdsYellow',
@@ -84,15 +84,15 @@ class MudeBrands {
         width: 56,
       );
 
-  static MudeBrandData get logoMudeDsBlack => MudeBrandData(
-        path: 'lib/src/assets/brands/logo-mude-ds-black.svg',
+  static ExpenseBrandData get logoExpenseDsBlack => ExpenseBrandData(
+        path: 'lib/src/assets/brands/logo-Expense-ds-black.svg',
         package: 'expense_assets',
-        name: 'LogoMudeDsBlack',
+        name: 'LogoExpenseDsBlack',
         height: 25,
         width: 112,
       );
 
-  static MudeBrandData get squareLogoMdsWhite => MudeBrandData(
+  static ExpenseBrandData get squareLogoMdsWhite => ExpenseBrandData(
         path: 'lib/src/assets/brands/square-logo-mds-white.svg',
         package: 'expense_assets',
         name: 'SquareLogoMdsWhite',
@@ -100,7 +100,7 @@ class MudeBrands {
         width: 56,
       );
 
-  static MudeBrandData get logoMBlack => MudeBrandData(
+  static ExpenseBrandData get logoMBlack => ExpenseBrandData(
         path: 'lib/src/assets/brands/logo-m-black.svg',
         package: 'expense_assets',
         name: 'LogoMBlack',
@@ -108,17 +108,17 @@ class MudeBrands {
         width: 24,
       );
 
-  static List<MudeBrandData> values = [
-    MudeBrands.logoMdsBlack,
-    MudeBrands.logoMudeWhite,
-    MudeBrands.logoMudeDsWhite,
-    MudeBrands.squareLogoMdsBlack,
-    MudeBrands.logoMWhite,
-    MudeBrands.logoMdsWhite,
-    MudeBrands.logoMudeBlack,
-    MudeBrands.squareLogoMdsYellow,
-    MudeBrands.logoMudeDsBlack,
-    MudeBrands.squareLogoMdsWhite,
-    MudeBrands.logoMBlack,
+  static List<ExpenseBrandData> values = [
+    ExpenseBrands.logoMdsBlack,
+    ExpenseBrands.logoExpenseWhite,
+    ExpenseBrands.logoExpenseDsWhite,
+    ExpenseBrands.squareLogoMdsBlack,
+    ExpenseBrands.logoMWhite,
+    ExpenseBrands.logoMdsWhite,
+    ExpenseBrands.logoExpenseBlack,
+    ExpenseBrands.squareLogoMdsYellow,
+    ExpenseBrands.logoExpenseDsBlack,
+    ExpenseBrands.squareLogoMdsWhite,
+    ExpenseBrands.logoMBlack,
   ];
 }

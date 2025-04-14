@@ -1,4 +1,4 @@
-# Mude Flutter Assets
+# Expense Flutter Assets
 
 Biblioteca `assets` do `Design System` responsável por conter todos os ícones, imagens e outros recursos do Design System.
 

@@ -1,11 +1,11 @@
-class MudeFlagData {
+class ExpenseFlagData {
   final String package;
   final String path;
   final String name;
   final double height;
   final double width;
 
-  MudeFlagData({
+  ExpenseFlagData({
     required this.path,
     required this.package,
     required this.name,
@@ -19,8 +19,8 @@ class MudeFlagData {
   }
 }
 
-class MudeFlags {
-  static MudeFlagData get elo => MudeFlagData(
+class ExpenseFlags {
+  static ExpenseFlagData get elo => ExpenseFlagData(
         path: 'lib/src/assets/flags/elo.svg',
         package: 'expense_assets',
         name: 'Elo',
@@ -28,7 +28,7 @@ class MudeFlags {
         width: 40,
       );
 
-  static MudeFlagData get visa => MudeFlagData(
+  static ExpenseFlagData get visa => ExpenseFlagData(
         path: 'lib/src/assets/flags/visa.svg',
         package: 'expense_assets',
         name: 'Visa',
@@ -36,7 +36,7 @@ class MudeFlags {
         width: 40,
       );
 
-  static MudeFlagData get masterCard => MudeFlagData(
+  static ExpenseFlagData get masterCard => ExpenseFlagData(
         path: 'lib/src/assets/flags/master-card.svg',
         package: 'expense_assets',
         name: 'MasterCard',
@@ -44,9 +44,9 @@ class MudeFlags {
         width: 40,
       );
 
-  static List<MudeFlagData> values = [
-    MudeFlags.elo,
-    MudeFlags.visa,
-    MudeFlags.masterCard,
+  static List<ExpenseFlagData> values = [
+    ExpenseFlags.elo,
+    ExpenseFlags.visa,
+    ExpenseFlags.masterCard,
   ];
 }
